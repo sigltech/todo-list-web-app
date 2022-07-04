@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* ********** General Styling ********** */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ********** Header Styling ********** */
+
+header {
+    height: 35px;
+    background-color: #fff;
+    padding: 20px 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px -2px rgb(181, 181, 181);
+  }
+
+  /* ********** Main Styling ********** */
+
+  main {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .login-container {
+    margin-top: 150px;
+    border: 2px solid black;
+    padding: 20px;
+    height: min-content;
+    width: 70%;
+  }
+
+  .login-container h2 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .username-div,
+  .password-div {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .username-div input,
+  .password-div input {
+    margin: 10px;
+    height: 1.5rem;
+    box-shadow: none;
+    border: 2px solid rgba( 000, 000, 000, 0.2);
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem; 
+  }
+
+

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* ********** General Styling ********** */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* ********** Header Styling ********** */
+
+header {
+  height: 35px;
+  background-color: #fff;
+  padding: 20px 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px -2px rgb(181, 181, 181);
+}
+
+#add-new-btn {
+  padding: 15px 25px;
+  color: #fff;
+  border-radius: 20px;
+  background-color: rgb(194, 31, 31);
+  border: none;
+}
+
+#add-new-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* ********** side-bar styling ********** */
+
+.sidebar {
+  border-bottom-right-radius: 10px;
+  background-color: rgba(167, 167, 167, 0.8);
+  width: 35%;
+  height: 100vh;
+}
+
+/* ********** to-do list styling ********** */
+
+.to-do-list {
+  padding: 10px 50px;
+  width: 100%;
+}
+
+.to-do-list h2 {
+  width: 100%;
+}
+
+/* ************* to do table ************* */
+
+tr,
+td {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+td {
+  padding: 20px 0;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.date-col {
+  width: 20%;
+}
