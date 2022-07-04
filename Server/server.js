@@ -5,8 +5,8 @@ const server = express();
 server.use(express.json());
 server.use(cors());
 
-const controllers = require("./controllers");
-server.use("/tasks", controllers.tasks)
+const taskRoute = require("./controllers");
+server.use("/tasks", taskRoute)
 
 server.get('/', (req,res) => res.send('Welcome to the server!'))
 
